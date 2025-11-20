@@ -5,8 +5,28 @@ header,
   height: 100%;
 }
 
+.navbar {
+  background-color: #ffc107 !important; /* kuning */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .fa {
+  color: #000 !important; /* teks hitam biar kontras */
+}
+
+.page-footer {
+  background-color: #ffc107 !important;
+  color: #fff !important;
+}
+
+.page-footer a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
 #intro {
-  background-image: url("../img/fotofmipa.jpg");
+  background-image: url("../img/mipa untan.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +54,16 @@ header,
   border-radius: 8px;
 }
 
+.primary-color {
+    background-color: #ffc107 !important; 
+}
+
+.primary-color h6,
+.primary-color i {
+    color: #ffffff !important; 
+}
+
+
 .stat-number {
   font-size: 60px;
   font-weight: 700;
@@ -57,6 +87,11 @@ header,
 .prodi-icon {
   font-size: 50px;
 }
+
+.page-footer .container-fluid {
+    background-color: #ffc107 !important;
+}
+
 
 .top-nav-collapse {
   background-color: #24355c;
